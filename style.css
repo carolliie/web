@@ -6,3 +6,21 @@
 body {
     background-color: #fcfbf6;
 }
+
+#spotify {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+#hobbies {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
+}
+
+#crl {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  font-size: 85px;
+}
+
+#about1 {
+  font-family: 'Raleway', sans-serif;
+}
