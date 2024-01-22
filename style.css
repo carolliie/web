@@ -3,8 +3,38 @@
     background-size: 180% 180%;
   }
 
+  .navbar a:hover {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 5px;
+    background-color: #ffd1d1cc;
+    color: rgb(209, 119, 119);
+  }
+  
+  
+  @keyframes cat {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #cat {
+    animation: cat 2s ease-in-out infinite;
+  }
+
+
 body {
     background-color: #fcfbf6;
+}
+
+#header2 {
+  transform: rotate(180deg);
 }
 
 #spotify {
@@ -13,6 +43,8 @@ body {
 
 #hobbies {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
+  font-size: 45px;
+  color: #8a706e;
 }
 
 #crl {
@@ -23,4 +55,8 @@ body {
 
 #about1 {
   font-family: 'Raleway', sans-serif;
+}
+
+#about {
+  font-size: 45px;
 }
