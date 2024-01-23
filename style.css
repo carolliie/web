@@ -37,14 +37,46 @@ body {
   transform: rotate(180deg);
 }
 
-#spotify {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-}
-
 #hobbies {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
   font-size: 45px;
   color: #8a706e;
+  margin-top: 4px;
+}
+
+#cards {
+  border-bottom-width: 9px;
+  border-top-width: 2px;
+  border-left-width: 2.2px;
+  border-right-width: 2.2px;
+  border-color: #8a706e;
+  border-radius: 12px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+#buttons {
+  border-color: #8a706e;
+  border-width: 2px;
+  background-color: #f3eed9;
+  color:#8a706e;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#arduino {
+  height: 320px;
+  width: 320px;
+  margin-left: 8px;
+}
+
+#buttons:hover {
+  background-color: #8a706e;
+  color: #f5ead4;
+  border-bottom-width: 6px;
+  border-color: #ffcdb5;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 #crl {
