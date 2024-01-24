@@ -91,4 +91,9 @@ body {
 
 #about {
   font-size: 45px;
+  color: #585453;
+}
+
+#jumbotron {
+  color: #8a706e;
 }
