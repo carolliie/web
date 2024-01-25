@@ -3,15 +3,14 @@
     background-size: 180% 180%;
   }
 
-  .navbar a:hover {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #ffd1d1cc;
-    color: rgb(209, 119, 119);
-  }
-
+.navbar a:hover {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffa9a9cc;
+  color: rgb(209, 119, 119);
+}
   
   @keyframes cat {
     0% {
