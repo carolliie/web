@@ -3,13 +3,35 @@
     background-size: 180% 180%;
   }
 
-.navbar a:hover {
-  margin-top: 1px;
-  margin-bottom: 1px;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: #ffa9a9cc;
-  color: rgb(209, 119, 119);
+.navbar li {
+  position: relative;
+  display: block;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar li {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar li::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 95%;
+  left: 0;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: #e49b97;
+}
+
+.navbar li:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  color: #cc8b87;
 }
 
   @keyframes cat {
