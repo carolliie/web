@@ -59,9 +59,16 @@ body {
   transform: rotate(180deg);
 }
 
+#skills {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
+  font-size: 32px;
+  color: #8a706e;
+  margin-top: 4px;
+}
+
 #hobbies {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
-  font-size: 45px;
+  font-size: 48px;
   color: #8a706e;
   margin-top: 4px;
 }
