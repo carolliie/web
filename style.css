@@ -67,7 +67,8 @@ body {
 }
 
 #hobbies {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/; 
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold; 
   font-size: 52px;
   color: #8a706e;
   margin-top: 4px;
