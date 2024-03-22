@@ -1,4 +1,4 @@
-<h1 align="center">web - a landing page</h1>
+# web - a landing page
 
 ![Html](https://img.shields.io/badge/-Html-F78CA2?style=for-the-badge&logo=HTML5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-F78CA2?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=F78CA2)
