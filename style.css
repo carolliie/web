@@ -10,11 +10,6 @@
   cursor: pointer;
 }
 
-.navbar li {
-  transition: 0.5s;
-  cursor: pointer;
-}
-
 .navbar li::after {
   position: absolute;
   content: "";
@@ -121,4 +116,9 @@ body {
 
 #jumbotron {
   color: #8a706e;
+}
+
+#footer-year {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
